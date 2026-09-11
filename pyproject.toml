@@ -1,0 +1,11 @@
+[project]
+name = "finger-camera"
+version = "0.1.0"
+description = "指で四角を作って撮る、UnitV2 中継サーバ"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pillow",
+    "requests",
+]
